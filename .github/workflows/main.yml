@@ -43,4 +43,4 @@ jobs:
       - name: Run linter
         # Run Linter
         run: |
-          make lint.
+          make lint .
