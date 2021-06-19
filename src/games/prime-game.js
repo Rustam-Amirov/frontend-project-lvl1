@@ -16,7 +16,7 @@ const isPrime = (num) => {
 export default () => {
   const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   const gameOptions = () => {
-    const question = getRandom(1, 10);
+    const question = getRandom(1, 100);
     const rightAnswer = isPrime(question) ? 'yes' : 'no';
     return { question, rightAnswer };
   };

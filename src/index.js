@@ -21,6 +21,7 @@ export default (gameOptions, rule) => {
     }
   }
   if (rightUserAnswer === 3) {
-    console.log(`Congratulations, ${userName}`);
+    console.log(`Congratulations, ${userName}!`);
   }
+  exit;
 };
