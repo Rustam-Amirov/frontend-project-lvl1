@@ -1,10 +1,5 @@
 import runGame from '../index.js';
-
-const getRandom = (min = 0, max = 10) => {
-  const ceilMin = Math.ceil(min);
-  const floorMax = Math.floor(max);
-  return Math.floor(Math.random() * (floorMax - ceilMin)) + ceilMin;
-};
+import getRandom from './getRandom.js';
 
 export default () => {
   const rule = 'Find the greatest common divisor of given numbers.';
